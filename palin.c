@@ -6,7 +6,7 @@ int main()
 {
     char a[50],b[50];
     printf("\n enter the string");
-    gets(a);
+    scanf("%d",&a);
     strcpy(b,a);
     strrev(b);
     if(strcmp(a,b)==0)
